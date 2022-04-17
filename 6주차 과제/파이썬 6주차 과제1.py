@@ -22,7 +22,7 @@ if __name__ == "__main__" :
     window.title("애완동물 선택하기")
     labelText = Label(window, text = "좋아하는 동물 투표 ", fg = "blue",
                        font = ("궁서체", 20))
-    #라디오 버튼 값
+    #라디오 버튼 값 변수
     var = IntVar()
     #강아지(1), 고양이(2), 토끼(3)을 선택 시 해당 라디오 버튼 값이 들어감
     rb1 = Radiobutton(window, text = "강아지", variable = var, value = 1)
